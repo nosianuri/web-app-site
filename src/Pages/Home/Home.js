@@ -5,13 +5,15 @@ import More from './More';
 import ShareTask from './ShareTask';
 import Workspace from './Workspace';
 import Footer from '../Shared/Footer/Footer';
+import Header from '../Shared/Header/Header';
+import Banner from './Banner';
 
 
 const Home = () => {
-    
+
     return (
-        <div className="w-full h-screen">
-            <Input />
+        <div>
+            <Banner />
             <ToDoList />
             <More />
             <ShareTask />
