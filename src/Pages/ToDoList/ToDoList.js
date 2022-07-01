@@ -26,7 +26,7 @@ if(txt!==""){
   }
     return (
         
-            <div id="body" className="rounded-lg bg-indigo-500 h-5/6 w-5/12 drop-shadow-2xl max-w-xl m-5">
+            <div id="body" className="rounded-lg bg-indigo-500 h-5/6 w-5/12 drop-shadow-2xl max-w-xl m-5 items-center justify-between">
         <div id="title" className="m-5 text-center text-2xl font-bold text-white">
           <h1>To Do List</h1>
         </div>

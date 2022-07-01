@@ -4,10 +4,9 @@ import Button from '../Button';
 const Header = () => {
     let Links =[
         {name:"HOME",link:"/"},
-        {name:"To-Do",link:"/"},
-        {name:"Calender",link:"/"},
-        {name:"Tasks",link:"/"},
-        
+        {name:"To-Do",link:"/todo"},
+        {name:"Calender",link:"/calender"},
+        {name:"Tasks",link:"/tasks"},
       ];
       let [open,setOpen]=useState(false);
     
