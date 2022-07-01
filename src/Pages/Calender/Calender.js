@@ -10,7 +10,7 @@ const Calender = () => {
     
     <div class="hero min-h-screen bg-indigo-600">
   <div class="hero-content flex-col lg:flex-row-reverse">
-    <img src="https://tasksboard.com/img/premium/hero.jpg" />
+    <img src="https://tasksboard.com/img/premium/hero.jpg" alt='taskboard' />
     <div>
     <DayPicker className='text-white'
       mode='single'

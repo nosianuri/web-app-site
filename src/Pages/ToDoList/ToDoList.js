@@ -36,7 +36,7 @@ const ToDoList = () => {
 
   return (
     <div className="bg-indigo-600 w-full h-screen">
-      <div id='app' className='grid h-screen w-screen place-items-center'>
+      <div id='app' className='grid h-screen place-items-center'>
         {openAdd ?
           <Input onAdd={onAdd} />
           :
