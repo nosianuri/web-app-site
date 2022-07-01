@@ -10,7 +10,7 @@ import Footer from '../Shared/Footer/Footer';
 const Home = () => {
     
     return (
-        <div className="bg-indigo-600 w-full h-screen">
+        <div className="w-full h-screen">
             <Input />
             <ToDoList />
             <More />
