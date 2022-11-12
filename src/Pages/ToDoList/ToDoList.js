@@ -97,7 +97,7 @@ const ToDoList = () => {
                 onClick={updateTask}
               >Update</button>
               <button 
-                className="btn btn-lg btn-warning" 
+                className="btn btn-lg btn-warning text-light" 
                 onClick={cancelUpdate}
               >Cancel</button>
             </div>
@@ -116,7 +116,7 @@ const ToDoList = () => {
             </div>
             <div className="col-auto">
               <button 
-                className="btn btn-lg btn-success" 
+                className="btn btn-lg btn-light text-primary" 
                 onClick={addTask}
               >Add Task</button>
             </div>

@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import { DayPicker } from 'react-day-picker';
 import 'react-day-picker/dist/style.css';
-import Footer from '../Shared/Footer/Footer';
+import './Task.css';
 
 const Tasks = () => {
     const [date, setDate] = useState(new Date());
     return (
         <>
-        <div className='bg-indigo-600'>
+        <div className='task'>
             <div className="drawer drawer-mobile">
                 <input id="dashboard-sidebar" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content">
@@ -36,7 +36,6 @@ const Tasks = () => {
                 </div>
             </div>
         </div>
-        <Footer />
         </>
     );
 };

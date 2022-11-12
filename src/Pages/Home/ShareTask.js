@@ -1,15 +1,18 @@
 import React from 'react';
+import './ShareTask.css';
 
 const ShareTask = () => {
   return (
-    <div className="hero min-h-screen bg-indigo-600">
-      <div className="hero-content flex-col lg:flex-row">
-        <img src="https://tasksboard.com/img/landing/share-google-tasks.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+    <div className="sharetask">
+      <div className='container'>
+      <div className="d-flex">
+        <img src="https://tasksboard.com/img/landing/share-google-tasks.jpg" className="sharetask-img" alt='shareTask' />
         <div>
           <h1 className="text-5xl font-bold text-white">Share your tasks!</h1>
           <p className="py-6 text-white">Share your Google Tasks lists in real-time with your team with one link.</p>
           <button className="btn btn-primary">Get Started</button>
         </div>
+      </div>
       </div>
     </div>
   );

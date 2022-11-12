@@ -18,7 +18,6 @@ const Home = () => {
             <More />
             <ShareTask />
             <Workspace />
-            <Footer />
         </div>
     );
 };

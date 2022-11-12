@@ -1,0 +1,28 @@
+footer {
+    text-align: center;
+    padding: 35px;
+}
+
+.footer-link {
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 18px;
+    padding-left: 15px;
+    color: rgb(84, 61, 213);
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.copyright p {
+    font-size: 12px;
+    padding-top: 20px;
+    color: rgb(84, 61, 213);
+}
+
+.social-link a{
+    padding-left: 25px;
+    cursor: pointer;
+}

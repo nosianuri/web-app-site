@@ -5,12 +5,17 @@
 }
 
 .banner-img{
-    padding-top: 20px;
+    padding-top: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-bottom: 10px;
     border-radius: 30px;
+    width: 180px;
+}
+
+.banner-container{
+    padding-top: 40px;
 }
 
 .banner-container h1{

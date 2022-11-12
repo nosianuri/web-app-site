@@ -2,15 +2,17 @@ import { format } from 'date-fns';
 import React, { useState } from 'react';
 import { DayPicker } from 'react-day-picker';
 import 'react-day-picker/dist/style.css';
+import './Calender.css';
 
 
 const Calender = () => {
   const [date, setDate] = useState(new Date());
   return (
     
-    <div class="hero min-h-screen bg-indigo-600">
-  <div class="hero-content flex-col lg:flex-row-reverse">
-    <img src="https://tasksboard.com/img/premium/hero.jpg" alt='taskboard' />
+    <div class="calender">
+  <div className='container'>
+  <div class="">
+    <img className='calender-img' src="https://tasksboard.com/img/premium/hero.jpg" alt='taskboard' />
     <div>
     <DayPicker className='text-white'
       mode='single'
@@ -19,6 +21,7 @@ const Calender = () => {
     />
     <p className='text-white'>Selected date: {format(date, 'PP')}</p>
     </div>
+  </div>
   </div>
   
 </div>

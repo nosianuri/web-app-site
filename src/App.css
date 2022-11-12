@@ -12,13 +12,16 @@ body {
 .App {
   font-family: sans-serif;
   text-align: center;
+}
 
+.App h2{
+  color: #fff;
 }
 
 .todo-section{
   background-color: rgb(84, 61, 213);
   padding-bottom: 35px;
-  padding-top: 35px;
+  padding-top: 40px;
 }
 
 .taskBg {
@@ -72,11 +75,11 @@ body {
   display: inline-block;
   margin: 0px 10px 0 10px;
   cursor: pointer;
-  color: #00ff89;
+  color: #6610f2;
 }
 
 .taskBg .iconsWrap span:hover {
-  color: yellow;
+  color: #6f42c1;
 }
 
 .mr-20 {
