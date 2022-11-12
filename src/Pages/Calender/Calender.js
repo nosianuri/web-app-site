@@ -11,9 +11,9 @@ const Calender = () => {
     
     <div class="calender">
   <div className='container'>
-  <div class="">
-    <img className='calender-img' src="https://tasksboard.com/img/premium/hero.jpg" alt='taskboard' />
-    <div>
+  <div class="row">
+
+  <div className='col-sm-6'>
     <DayPicker className='text-white'
       mode='single'
       selected={date}
@@ -21,6 +21,12 @@ const Calender = () => {
     />
     <p className='text-white'>Selected date: {format(date, 'PP')}</p>
     </div>
+
+  <div className='col-sm-6'>
+  <img className='calender-img' src="https://tasksboard.com/img/premium/hero.jpg" alt='taskboard' />
+  </div>
+    
+    
   </div>
   </div>
   

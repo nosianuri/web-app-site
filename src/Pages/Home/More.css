@@ -1,8 +1,13 @@
 .more{
     background-color: rgb(84, 61, 213);
-    padding: 35px;
+    padding-top: 112px;
+    padding-bottom: 55px;
 }
 
 .more-img{
     width: 250px;
+}
+
+.more-text{
+    padding-top: 20px;
 }
