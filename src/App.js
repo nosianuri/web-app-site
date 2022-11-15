@@ -10,6 +10,7 @@ import ToDoList from './Pages/ToDoList/ToDoList';
 import Tasks from './Pages/Tasks/Tasks';
 import Login from './Pages/Login/Login';
 import SignUp from './Pages/Login/SignUp';
+import About from './Pages/About/About';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/todo' element={<ToDoList></ToDoList>}></Route>
         <Route path='/calender' element={<Calender></Calender>}></Route>
         <Route path='/tasks' element={<Tasks></Tasks>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/signup' element={<SignUp />}></Route>
 
