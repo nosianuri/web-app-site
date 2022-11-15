@@ -20,7 +20,7 @@ nav {
   
   #navbar li a {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #175acf;
     transition: 0.3s ease-in-out;
@@ -43,6 +43,14 @@ nav {
   
   #mobile {
     display: none;
+  }
+
+  .webapp{
+    font-size: 1.3rem;
+    padding-left: 10px;
+    font-weight: 700;
+    /* text-decoration: none; */
+    color: rgb(54, 33, 173);
   }
   
   #mobile i {

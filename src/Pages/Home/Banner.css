@@ -1,7 +1,7 @@
 .banner{
     background-color: rgb(84, 61, 213);
     text-align: center;
-    padding: 35px;
+    padding-top: 35px;
 }
 
 .banner-img{
@@ -40,4 +40,7 @@
 .banner-btn:hover{
     color: #fff;
     background-color: rgb(84, 61, 213);
+}
+.wave{
+    width: 100%;
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import './Banner.css';
+import wave1 from '../../asset/wave1.png';
+
 
 const Banner = () => {
   const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -18,6 +20,9 @@ const Banner = () => {
           <button onClick={() => signInWithGoogle()} className="banner-btn">Continue with Google</button>
         </div>
       </div>
+      <div>
+        <img className='wave' src={wave1} alt="" />
+    </div>
     </div>
 
   );

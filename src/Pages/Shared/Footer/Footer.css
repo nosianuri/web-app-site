@@ -1,6 +1,5 @@
-footer {
+/* footer {
     text-align: center;
-    padding: 35px;
 }
 
 .footer-link {
@@ -10,19 +9,87 @@ footer {
 .footer-text {
     font-size: 18px;
     padding-left: 15px;
-    color: rgb(84, 61, 213);
+    color: #fff;
     text-decoration: none;
     font-weight: 700;
     cursor: pointer;
 }
 
+.footer-box{
+    
+    background-color: rgb(84, 61, 213);
+}
+.copyright{
+    background-color: rgb(84, 61, 213);
+    padding-bottom: 20px;
+}
+
 .copyright p {
     font-size: 12px;
     padding-top: 20px;
-    color: rgb(84, 61, 213);
+    color: #fff;
 }
 
 .social-link a{
     padding-left: 25px;
     cursor: pointer;
+}
+.wave{
+    width: 100%;
+} */
+
+#footer{
+    background: #fff;
+    color: rgb(84, 61, 213);
+}
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding: 20px;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa-solid{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    color: #fff;
+    background: rgb(84, 61, 213);
+}
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: 1px solid rgb(84, 61, 213);
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.subscribe-btn{
+    background: rgb(84, 61, 213);
+    color: #fff;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none !important;
+    margin-top: 30px;
+}
+
+hr{
+    background-color: rgb(84, 61, 213);
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
 }
