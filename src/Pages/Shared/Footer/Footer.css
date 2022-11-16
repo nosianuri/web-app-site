@@ -113,7 +113,7 @@
     font-size: 12px;
     font-family: var(--font-family);
     line-height: 15px;
-    color: #fff;
+    color: rgb(84, 61, 213);
 }
 .gradient__text{
     color: var(--gradient-text);

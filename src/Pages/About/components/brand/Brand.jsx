@@ -5,22 +5,22 @@ import { google, slack, atlassian, dropbox, shopify } from './import';
 const Brand = () => (
   <div className='container'>
     <div className="gpt3__brand section__padding">
-    <div>
-      <img src={google} />
+      <div>
+        <img src={google} alt="" />
+      </div>
+      <div>
+        <img src={slack} alt="" />
+      </div>
+      <div>
+        <img src={atlassian} alt="" />
+      </div>
+      <div>
+        <img src={dropbox} alt="" />
+      </div>
+      <div>
+        <img src={shopify} alt="" />
+      </div>
     </div>
-    <div>
-      <img src={slack} />
-    </div>
-    <div>
-      <img src={atlassian} />
-    </div>
-    <div>
-      <img src={dropbox} />
-    </div>
-    <div>
-      <img src={shopify} />
-    </div>
-  </div>
   </div>
 );
-export default Brand
+export default Brand;

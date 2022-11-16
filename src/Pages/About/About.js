@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className='App'>
       <div className='gradient_bg'>
-        
+
         <Header />
       </div>
       <Brand />
@@ -16,7 +16,7 @@ const About = () => {
       <Possibility />
       <Cta />
       <Blog />
-      
+
     </div>
   )
 }
